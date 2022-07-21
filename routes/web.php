@@ -37,7 +37,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
     Route::get('product/{id}',[ProductController::class,'show'])->name('productDelis');
 
     Route::get('blog_all',[BlogController::class,'index'])->name('blog_all');
+
     Route::get('blog/{id}',[BlogController::class,'show'])->name('blogDelis');
+    
+    Route::get('services/{id}',[BlogController::class,'servicesDelis'])->name('servicesDelis');
 
     Route::resource('request_product',RequestProductController::class);
     Route::post('store-contact',[ContactController::class,'store'])->name('store_contact');

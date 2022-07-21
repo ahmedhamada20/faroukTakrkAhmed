@@ -57,6 +57,7 @@ class ServicesController extends Controller
             'name' => ['ar' => $request->name , 'en' => $request->name_en],
             'notes' =>['ar' => $request->notes , 'en' => $request->notes_en],
             'status' => $request->status,
+            'slug' =>  $request->slug,
         ]);
         // Inset One Photo
 
@@ -117,6 +118,7 @@ class ServicesController extends Controller
             'name' => ['ar' => $request->name , 'en' => $request->name_en],
             'notes' =>['ar' => $request->notes , 'en' => $request->notes_en],
             'status' => $request->status,
+            'slug' =>  $request->slug,
 
         ]);
         // Inset One Photo

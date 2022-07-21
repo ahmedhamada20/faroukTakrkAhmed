@@ -27,5 +27,6 @@ return [
     'Explore_Our_blog' => 'Explore Our blog',
     'Read_More' => 'Read More',
     'show_blog' => 'show blog',
+    'show_Service' => 'show Service',
 
 ];

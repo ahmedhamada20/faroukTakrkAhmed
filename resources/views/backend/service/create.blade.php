@@ -41,15 +41,25 @@
 
                         <br>
 
-                        <div class="col">
-                             <label>الحاله</label>
-                            <select class="form-control p-1" name="status" required>
-                                <option value="" disabled selected>-- Choose --</option>
-                                <option value="1">Active</option>
-                                <option value="0"> No Active</option>
-                            </select>
+                        <div class="row">
+                            <div class="col">
+                                <label>الرابط المساعد</label>
+                                <input type="text" name="slug" required class="form-control">
+                            </div>
+
+
+                            <div class="col">
+                                <label>الحاله</label>
+                               <select class="form-control p-1" name="status" required>
+                                   <option value="" disabled selected>-- Choose --</option>
+                                   <option value="1">Active</option>
+                                   <option value="0"> No Active</option>
+                               </select>
+                           </div>
+   
                         </div>
 
+                        
 
                         <br>
                         <div class="row">

@@ -27,6 +27,7 @@ class ServiceSeeder extends Seeder
                 'name' => ['ar' => $faker->name, 'en' => $faker->name],
                 'notes' => ['ar' => $faker->name, 'en' => $faker->name],
                 'status' => true,
+                'slug' => $faker->name,
             ]);
         }
 
