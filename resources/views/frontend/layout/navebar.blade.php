@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
     <a href="{{route('home')}}" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
         @if($setting->photo)
-            <img src="{{asset('admin/pictures/setting/' . $setting->id .'/' .$setting->photo->Filename)}}" alt="Demo Image">
+            <img src="{{asset('admin/pictures/setting/' . $setting->id .'/' .$setting->photo->Filename)}}" alt="Demo Image" style="width: 150px !important;height: 70px !important;">
         @endif
     </a>
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
