@@ -27,9 +27,10 @@
             </div>
             <a href="{{route('user_contact')}}" class="nav-item nav-link {{ getActiveRoutesHome('user_contact')}}">{{ __('app.Contact') }}</a>
             <div class="dropdown">
-                <button class="btn btn-primary mt-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false" style="margin-right: 10px">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     {{trans('app.lang')}}
                 </button>
+
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                         <a class="dropdown-item" rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
