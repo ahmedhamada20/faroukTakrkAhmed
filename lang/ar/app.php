@@ -27,4 +27,6 @@ return [
     'Explore_Our_blog' => 'استكشف مدونتنا',
     'Read_More' => 'اقرأ أكثر',
     'show_blog' => 'عرض المدونة',
+
+    'show_Service' => 'عرض الخدمة',
 ];

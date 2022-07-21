@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->text('notes');
             $table->boolean('status')->default(false);
+            $table->string('slug')->unique();
             $table->timestamps();
         });
     }

@@ -45,14 +45,25 @@
 
                         <br>
 
-                        <div class="col">
-                             <label>الحاله</label>
-                            <select class="form-control p-1" name="status">
-                                <option value="1" {{$data->status == 1 ? 'selected' : null}}>Active</option>
-                                <option value="0" {{$data->status == 0 ? 'selected' : null}}> No Active</option>
-                            </select>
+                        <div class="row">
+
+                            <div class="col">
+                                <label>الرابط المساعد</label>
+                                <input type="text" name="slug" required class="form-control" value="{{$data->slug}}">
+                            </div>
+
+
+                            <div class="col">
+                                <label>الحاله</label>
+                               <select class="form-control p-1" name="status">
+                                   <option value="1" {{$data->status == 1 ? 'selected' : null}}>Active</option>
+                                   <option value="0" {{$data->status == 0 ? 'selected' : null}}> No Active</option>
+                               </select>
+                           </div>
+   
                         </div>
 
+                      
                         <br>
                         <div class="row">
                             <div class="col">

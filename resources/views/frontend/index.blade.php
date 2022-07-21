@@ -108,7 +108,7 @@
                     </div>
                     <h4 class="mb-3">{{ $service->name }}</h4>
                     <p>{!! $service->notes !!}</p>
-                    <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    <a class="btn-slide mt-2" href="{{ route('servicesDelis',preg_replace('/\s+/', '-', $service->slug)) }}"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                 </div>
             </div>
 

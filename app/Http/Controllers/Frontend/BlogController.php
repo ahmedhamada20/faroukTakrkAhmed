@@ -39,4 +39,21 @@ class BlogController extends Controller
 
         return view('frontend.blog.show', $data);
     }
+
+
+    public function servicesDelis($id)
+    {
+        $data = [
+            'data' => Service::where('slug',preg_replace('/-/', ' ', $id))->first(),
+            'setting' => Setting::with(['photo'])->first(),
+            'agencies' => Agencie::with(['photos', 'bdf'])->Status()->get(),
+            'franchise' => Agencie::first(),
+            'services' => Service::with(['photo'])->Status()->inRandomOrder()->take(8)->get(),
+            'servics' => Service::with(['photo'])->Status()->inRandomOrder()->get()
+        ];
+
+
+
+        return view('frontend.service.show', $data);
+    }
 }
