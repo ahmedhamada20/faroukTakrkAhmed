@@ -22,10 +22,10 @@ class DatabaseSeeder extends Seeder
         $this->call(ServiceSeeder::class);
         $this->call(AgencieSeeder::class);
         $this->call(ProductSeeder::class);
-        $this->call(MemberSeeder::class);
-        $this->call(OurClientSeeder::class);
-        $this->call(ProductSeeder::class);
-        $this->call(SilderSeeder::class);
-        $this->call(BlogSeeder::class);
+        // $this->call(MemberSeeder::class);
+        // $this->call(OurClientSeeder::class);
+        // $this->call(ProductSeeder::class);
+        // $this->call(SilderSeeder::class);
+        // $this->call(BlogSeeder::class);
     }
 }
