@@ -51,6 +51,8 @@
                                  src="{{asset('frontend/img/about.jpg')}}"  alt="">
                         @endif
                     </div>
+
+                    
                 </div>
                 <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="text-secondary text-uppercase mb-3">{{__('app.About')}}</h6>
