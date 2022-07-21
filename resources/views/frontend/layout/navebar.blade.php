@@ -27,7 +27,7 @@
             </div>
             <a href="{{route('user_contact')}}" class="nav-item nav-link {{ getActiveRoutesHome('user_contact')}}">{{ __('app.Contact') }}</a>
             <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-primary dropdown-toggle mt-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     {{trans('app.lang')}}
                 </button>
 
