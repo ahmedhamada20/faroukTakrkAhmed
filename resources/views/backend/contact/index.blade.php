@@ -34,6 +34,7 @@
                                 <th>الاسم</th>
                                 <th>البريد الألكتروني</th>
                                 <th>الهاتف</th>
+                                <th>الخدمه</th>
                                 <th>العمليات</th>
                             </tr>
                             </thead>
@@ -44,7 +45,8 @@
                                     <td>{{$loop->iteration}}</td>
                                     <td>{{$contact->name}}</td>
                                     <td>{{$contact->email}}</td>
-                                    <td>{{Str::limit($contact->notes,40)}}</td>
+                                    <td>{{$contact->phone}}</td>
+                                    <td>{{$contact->services->name}}</td>
                                     <td>
                                         <button class="btn btn-sm btn-danger" data-toggle="modal"
                                                 data-target="#deleted{{$contact->id}}"><i class="fa fa-trash"></i></button>
