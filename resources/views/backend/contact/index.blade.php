@@ -50,8 +50,11 @@
                                     <td>
                                         <button class="btn btn-sm btn-danger" data-toggle="modal"
                                                 data-target="#deleted{{$contact->id}}"><i class="fa fa-trash"></i></button>
+                                        <button class="btn btn-sm btn-info" data-toggle="modal"
+                                                data-target="#show{{$contact->id}}"><i class="fa fa-eye"></i></button>
                                     </td>
                                     @include('backend.contact.deleted')
+                                    @include('backend.contact.show')
                                 </tr>
                             @endforeach
                         </table>
