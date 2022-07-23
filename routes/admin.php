@@ -77,7 +77,7 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::post('product_photo_remove_image', [ProductController::class,'product_photo_remove_image'])->name('product_photo_remove_image');
 
 
-    Route::get('product_request',[ProductRequestController::class,'index'])->name('product_request_all');
+    Route::get('product_request_all',[ProductRequestController::class,'index'])->name('product_request_all');
     Route::post('deleted_product_request',[ProductRequestController::class,'deleted_product_request'])->name('deleted_product_request');
 
     Route::get('orders',[ProductRequestController::class,'all_order'])->name('all_order');
