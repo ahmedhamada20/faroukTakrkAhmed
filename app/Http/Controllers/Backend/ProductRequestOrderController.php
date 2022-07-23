@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\BackEnd;
+namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
 use App\Models\Contact;
@@ -8,7 +8,7 @@ use App\Models\RequestPriceOffer;
 use App\Models\RequestProduct;
 use Illuminate\Http\Request;
 
-class ProductRequestController extends Controller
+class ProductRequestOrderController extends Controller
 {
     public function index()
     {

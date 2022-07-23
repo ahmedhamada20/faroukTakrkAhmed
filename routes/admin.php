@@ -11,7 +11,7 @@ use App\Http\Controllers\Backend\newsletterController;
 use App\Http\Controllers\Backend\OurClientController;
 use App\Http\Controllers\Backend\OutFeaturesController;
 use App\Http\Controllers\Backend\ProductController;
-use App\Http\Controllers\BackEnd\ProductRequestController;
+use App\Http\Controllers\Backend\ProductRequestOrderController;
 use App\Http\Controllers\Backend\QuoteController;
 use App\Http\Controllers\Backend\ServicesController;
 use App\Http\Controllers\Backend\SettingController;
@@ -77,10 +77,10 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::post('product_photo_remove_image', [ProductController::class,'product_photo_remove_image'])->name('product_photo_remove_image');
 
 
-    Route::get('product_request',[ProductRequestController::class,'index'])->name('product_request');
-    Route::post('deleted_product_request',[ProductRequestController::class,'deleted_product_request'])->name('deleted_product_request');
+    Route::get('product_request_all',[ProductRequestOrderController::class,'index'])->name('product_request_all');
+    Route::post('deleted_product_request',[ProductRequestOrderController::class,'deleted_product_request'])->name('deleted_product_request');
 
-    Route::get('orders',[ProductRequestController::class,'all_order'])->name('all_order');
+    Route::get('orders',[ProductRequestOrderController::class,'all_order'])->name('all_order');
 
 
     Route::get('gallery',[GalleryController::class,'index'])->name('gallery');
