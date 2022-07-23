@@ -134,7 +134,7 @@
                 </a>
                 <ul id="contact" class="collapse" data-parent="#sidebarnav">
                     <li><a href="{{route('contact')}}">جميع الطلبات </a></li>
-                    <li><a href="{{route('product_request')}}">طلبات عرض الاسعار</a></li>
+                    <li><a href="{{route('product_request_all')}}">طلبات عرض الاسعار</a></li>
                 </ul>
             </li>
 
