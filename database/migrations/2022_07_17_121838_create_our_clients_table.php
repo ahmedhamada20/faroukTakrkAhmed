@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('our_clients', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->longText('name');
             $table->string('jop');
             $table->text('notes');
             $table->boolean('status')->default(false);

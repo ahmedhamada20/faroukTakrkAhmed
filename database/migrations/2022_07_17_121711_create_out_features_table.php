@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('out_features', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->longText('name');
 
             $table->string('icon_1');
             $table->string('title_1');

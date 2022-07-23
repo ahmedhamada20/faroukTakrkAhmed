@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('request_price_offers', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->longText('name');
             $table->string('email');
             $table->string('number');
             $table->string('name_Factory');

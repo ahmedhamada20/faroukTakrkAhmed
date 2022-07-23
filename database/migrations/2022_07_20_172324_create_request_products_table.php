@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('request_products', function (Blueprint $table) {
             $table->id();
             $table->foreignId('product_id')->constrained('products')->cascadeOnDelete()->cascadeOnUpdate();
-            $table->string('name');
+            $table->longText('name');
             $table->string('email');
             $table->string('number');
             $table->text('notes')->nullable();
