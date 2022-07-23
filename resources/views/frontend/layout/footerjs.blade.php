@@ -10,7 +10,7 @@
 <script src="{{asset('frontend/lib/waypoints/waypoints.min.js')}}"></script>
 <script src="{{asset('frontend/lib/counterup/counterup.min.js')}}"></script>
 <script src="{{asset('frontend/lib/owlcarousel/owl.carousel.min.js')}}"></script>
-
+<script src="https://kit.fontawesome.com/8c73d8862b.js" crossorigin="anonymous"></script>
 
 
 <!--- Style css -->
