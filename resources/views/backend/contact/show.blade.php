@@ -8,7 +8,9 @@
             </div>
             <div class="modal-body">
 
-                <textarea readonly class="form-control" rows="5"></textarea>
+                <textarea readonly class="form-control" rows="5">
+                    {{ $contact->notes}}
+                </textarea>
 
 
                 <div class="modal-footer">
