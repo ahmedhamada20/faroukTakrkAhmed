@@ -46,6 +46,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'lo
     Route::post('store-contact',[ContactController::class,'store'])->name('store_contact');
 
     Route::get('gallery',[GalleryController::class,'index'])->name('user_gallery');
+
+    Route::post('requestPrice',[HomeController::class,'requestPrice'])->name('requestPrice');
 });
 
 

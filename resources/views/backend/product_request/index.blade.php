@@ -47,8 +47,8 @@
                                     <td>{{$row->name}}</td>
                                     <td>{{$row->email}}</td>
                                     <td>{{$row->number}}</td>
-                                    <td>{{$row->product->name}}</td>
-                                    <td>{{Str::limit($row->notes,40)}}</td>
+                                    <td>{{$row->name_Factory}}</td>
+                                    <td>{{$row->Activity}}</td>
                                     <td>
                                         <button class="btn btn-sm btn-danger" data-toggle="modal"
                                                 data-target="#deleted{{$row->id}}"><i class="fa fa-trash"></i></button>

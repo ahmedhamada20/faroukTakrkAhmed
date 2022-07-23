@@ -28,5 +28,14 @@ return [
     'Read_More' => 'Read More',
     'show_blog' => 'show blog',
     'show_Service' => 'show Service',
+    'requestPrice' => 'Request for Quotation',
+    'save' => 'Send',
+    'Close' => 'Close',
+
+
+    'Activity' => 'Activity',
+    'existing' => 'existing',
+    'new' => 'new',
+    'selected' => 'selected',
 
 ];

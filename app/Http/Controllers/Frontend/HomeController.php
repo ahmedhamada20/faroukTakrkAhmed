@@ -9,6 +9,7 @@ use App\Models\Member;
 use App\Models\OurClient;
 use App\Models\OutFeatures;
 use App\Models\Quote;
+use App\Models\RequestPriceOffer;
 use App\Models\Service;
 use App\Models\Setting;
 use App\Models\Silder;
@@ -37,6 +38,19 @@ class HomeController extends Controller
             'franchise'=>   Agencie::first(),
         ];
         return view('frontend.index', $data);
+    }
+
+    public function requestPrice(Request $request)
+    {
+        RequestPriceOffer::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'number' => $request->number,
+            'name_Factory' => $request->name_Factory,
+            'Activity' => $request->Activity,
+        ]);
+
+        return redirect()->back()->withMessage('Successfully Send in Order', '');
     }
 
     /**

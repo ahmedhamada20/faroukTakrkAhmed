@@ -4,6 +4,7 @@ namespace App\Http\Controllers\BackEnd;
 
 use App\Http\Controllers\Controller;
 use App\Models\Contact;
+use App\Models\RequestPriceOffer;
 use App\Models\RequestProduct;
 use Illuminate\Http\Request;
 
@@ -12,7 +13,7 @@ class ProductRequestController extends Controller
     public function index()
     {
         $data = [
-            "data" => RequestProduct::where('status',0)->get(),
+            "data" => RequestPriceOffer::get(),
         ];
 
         return view('backend.product_request.index', $data);
@@ -20,7 +21,7 @@ class ProductRequestController extends Controller
 
     public function deleted_product_request(Request $request)
     {
-        RequestProduct::destroy($request->id);
+        RequestPriceOffer::destroy($request->id);
         toastr()->success('Done Deleted Successfully');
         return redirect()->back();
     }

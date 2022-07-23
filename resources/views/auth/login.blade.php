@@ -35,7 +35,7 @@
                                            style="height: 55px;" required>
                                 </div>
                                 <div class="col-12 col-sm-12">
-                                    <input type="text" class="form-control border-0" placeholder="Password" name="password"
+                                    <input type="password" class="form-control border-0" placeholder="Password" name="password"
                                            style="height: 55px;" required>
                                 </div>
                                 <div class="col-12">

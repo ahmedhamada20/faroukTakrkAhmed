@@ -36,6 +36,12 @@
     </div>
     <!-- Carousel End -->
 
+    @if (session('message'))
+    <div class="alert alert-success" role="alert">
+     {{ session('message') }}
+      </div>
+  @endif
+
     <!-- About Start -->
     <div class="container-fluid overflow-hidden mt-5">
         <div class="container about ">

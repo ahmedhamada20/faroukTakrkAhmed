@@ -29,4 +29,13 @@ return [
     'show_blog' => 'عرض المدونة',
 
     'show_Service' => 'عرض الخدمة',
+
+    'requestPrice' => 'طلب عرض سعر',
+    'save' => 'ارسال الطلب',
+    'Close' => 'اغلاق',
+
+    'Activity' => 'نشاط',
+    'existing' => 'موجود',
+    'new' => 'الجديد',
+    'selected' => 'اختر من القائمه',
 ];
