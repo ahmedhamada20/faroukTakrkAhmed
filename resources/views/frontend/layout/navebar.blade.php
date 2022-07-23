@@ -39,7 +39,7 @@
 
 
 
-            <a href="#"  class="nav-item nav-link   {{ getActiveRoutesHome('request_price')}}"  data-bs-toggle="modal" data-bs-target="#exampleModal">{{ __('app.requestPrice') }}</a>
+            <a href="#"  class="nav-item nav-link   {{ getActiveRoutesHome('request_price')}}"  data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 5px">{{ __('app.requestPrice') }}</a>
             <div class="dropdown ">
                 <button class="btn btn-primary dropdown-toggle mt-3" type="button" id="dropdownMenuButton1"
                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -132,7 +132,7 @@
                 </div>
                 <br>
 
-           
+
                 <div class="row">
                     <div class="col">
                         <button class="btn btn-success">{{ __('app.save') }}</button>
@@ -141,7 +141,7 @@
 
             </form>
         </div>
-       
+
       </div>
     </div>
   </div>

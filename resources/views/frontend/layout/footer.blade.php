@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <h4 class="text-light mb-4">Services</h4>
+                <h4 class="text-light mb-4">{{trans('app.Services')}}</h4>
                 @forelse($services as $service)
                     <a class="btn btn-link" href="">{{$service->name}}</a>
                 @empty
@@ -24,7 +24,7 @@
 
             </div>
             <div class="col-lg-4 col-md-6">
-                <h4 class="text-light mb-4">Quick Links</h4>
+                <h4 class="text-light mb-4">{{__('app.QuickLinks')}}</h4>
                 <a class="btn btn-link" href="{{route('user_about')}}">{{ __('app.About') }}</a>
                 <a class="btn btn-link" href="{{route('user_contact')}}">{{ __('app.Contact') }}</a>
                 <a class="btn btn-link" href="{{route('user_service')}}">{{ __('app.Services') }}</a>

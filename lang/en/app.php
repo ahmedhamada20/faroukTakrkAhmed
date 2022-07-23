@@ -25,7 +25,6 @@ return [
 
     'blog' => 'blog',
     'Explore_Our_blog' => 'Explore Our blog',
-    'Read_More' => 'Read More',
     'show_blog' => 'show blog',
     'show_Service' => 'show Service',
     'requestPrice' => 'Request for Quotation',
@@ -37,5 +36,8 @@ return [
     'existing' => 'existing',
     'new' => 'new',
     'selected' => 'selected',
+    'name_Factory' => 'Factory Name',
+    'Address' => 'Address',
+    'QuickLinks' => 'Quick Links',
 
 ];

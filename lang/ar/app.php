@@ -2,12 +2,12 @@
 
 return [
 
-    'home' => 'الصفحه الرئسيه',
-    'lang' => 'لغة',
+    'home' => 'الرئسيه',
+    'lang' => 'اللغة',
     'Explore_Our_Services' => 'اكتشف خدماتنا',
     'Expert_Team_Members' => 'أعضاء فريق الخبراء',
     'Our_Clients_Say' => 'يقول عملاؤنا',
-    'Home' => 'الصفحه الرئسيه',
+    'Home' => 'الرئسيه',
     'About' => 'حول',
     'Services' => 'خدمات',
     'Franchise' => 'التوكيلات',
@@ -15,7 +15,7 @@ return [
     'Our_Features' => 'ميزاتنا',
     'YourName' => 'اسمك',
     'YourEmail' => 'بريدك الالكتروني',
-    'YourMobile' => 'هاتفك النقال',
+    'YourMobile' => 'الهاتف',
     'Submit' => 'ارسال',
 
     'product' => 'منتجات',
@@ -25,7 +25,6 @@ return [
 
     'blog' => 'مقالات',
     'Explore_Our_blog' => 'استكشف مدونتنا',
-    'Read_More' => 'اقرأ أكثر',
     'show_blog' => 'عرض المدونة',
 
     'show_Service' => 'عرض الخدمة',
@@ -35,7 +34,10 @@ return [
     'Close' => 'اغلاق',
 
     'Activity' => 'نشاط',
-    'existing' => 'موجود',
-    'new' => 'الجديد',
+    'existing' => 'قائم',
+    'new' => 'جديد',
     'selected' => 'اختر من القائمه',
+    'name_Factory' => 'اسم المصنع',
+    'Address' => 'العنوان',
+    'QuickLinks' => 'روابط سريعة',
 ];

@@ -31,7 +31,7 @@
     <link href="{{asset('frontend/css/style.css')}}" rel="stylesheet">
 @else
     <!-- Template Stylesheet -->
-    <link href="{{asset('frontend/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('frontend/css/style_ar.css')}}" rel="stylesheet">
 @endif
 
 @yield('css')
