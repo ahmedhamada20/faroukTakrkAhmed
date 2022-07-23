@@ -162,7 +162,7 @@
                     </div>
                     <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
                         @if($Features->icon_3)
-                        {!! Features->icon_3!!}
+                        {!! $Features->icon_3!!}
                            
                         @else
                             <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
