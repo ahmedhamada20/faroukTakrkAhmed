@@ -94,7 +94,7 @@
 
                             <div class="col">
                                 <label>الوصف بالغه العربيه 2</label>
-                                <input type="text" name="notes_1" class="form-control" value="{{$data->getTranslation('notes_2','ar')}}">
+                                <input type="text" name="notes_2" class="form-control" value="{{$data->getTranslation('notes_2','ar')}}">
                             </div>
 
 

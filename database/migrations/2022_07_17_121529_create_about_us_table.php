@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->text('notes');
+            
             $table->string('icon_1');
             $table->string('title_1');
             $table->string('notes_1');
