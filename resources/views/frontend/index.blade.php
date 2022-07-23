@@ -135,9 +135,9 @@
                 <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase mb-3">{{__('app.Our_Features')}}</h6>
                     <h1 class="mb-5">{{$Features->name}}</h1>
-                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
-                        @if($Features->icon_1)
-                            {!!$Features->icon_1!!}
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s"> 
+                        @if($Features->icon_1) 
+                            {!!$Features->icon_1 !!} 
                         @else
                             <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
                         @endif
