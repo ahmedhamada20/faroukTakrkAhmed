@@ -150,7 +150,7 @@
                     </div>
                     <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
                         @if($Features->icon_2)
-                            {{$Features->icon_2}}
+                            {!! Features->icon_2!!}
                         @else
                             <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
                         @endif
@@ -162,7 +162,8 @@
                     </div>
                     <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
                         @if($Features->icon_3)
-                            {{$Features->icon_3}}
+                        {!! Features->icon_3!!}
+                           
                         @else
                             <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
                         @endif
@@ -204,7 +205,8 @@
                     <p class="mb-5">{!!$quote->notes !!}</p>
                     <div class="d-flex align-items-center">
                         @if($quote->icon_1)
-                            {{$quote->icon_1}}
+                        
+                            {!! $quote->icon_1!!}
                         @else
                             <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
                         @endif

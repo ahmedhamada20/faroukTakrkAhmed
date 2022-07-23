@@ -41,7 +41,7 @@
                     <div class="row g-4 mb-5">
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                             @if($aboutUs->icon_1)
-                                {{$aboutUs->icon_1}}
+                                {!! $aboutUs->icon_1!!}
                             @else
                                 <i class="fa fa-globe fa-3x text-primary mb-3"></i>
                             @endif
@@ -51,7 +51,7 @@
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
                             @if($aboutUs->icon_2)
-                                {{$aboutUs->icon_2}}
+                            {!! $aboutUs->icon_2!!}
                             @else
                                 <i class="fa fa-shipping-fast fa-3x text-primary mb-3"></i>
                             @endif
@@ -74,7 +74,8 @@
                     <h1 class="mb-5">{{$Features->name}}</h1>
                     <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
                         @if($Features->icon_1)
-                            {{$Features->icon_1}}
+                        {!! $Features->icon_1!!}
+                            
                         @else
                             <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
                         @endif
@@ -87,7 +88,8 @@
                     </div>
                     <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
                         @if($Features->icon_2)
-                            {{$Features->icon_2}}
+                        {!! $Features->icon_2!!}
+                            
                         @else
                             <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
                         @endif
@@ -99,7 +101,8 @@
                     </div>
                     <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
                         @if($Features->icon_3)
-                            {{$Features->icon_3}}
+                            
+                            {!! $Features->icon_3!!}
                         @else
                             <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
                         @endif
