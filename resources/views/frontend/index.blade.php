@@ -137,7 +137,7 @@
                     <h1 class="mb-5">{{$Features->name}}</h1>
                     <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s"> 
                         @if($Features->icon_1) 
-                            {!!$Features->icon_1 !!} 
+                             {!!$Features->icon_1 !!} 
                         @else
                             <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
                         @endif

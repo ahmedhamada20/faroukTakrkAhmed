@@ -15,10 +15,10 @@ return new class extends Migration
     {
         Schema::create('services', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->text('name');
             $table->text('notes');
             $table->boolean('status')->default(false);
-            $table->string('slug')->unique();
+            $table->text('slug');
             $table->timestamps();
         });
     }
