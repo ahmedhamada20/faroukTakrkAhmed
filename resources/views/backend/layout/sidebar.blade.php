@@ -140,17 +140,17 @@
             </li>
 
             <!-- menu item calendar-->
-            <li>
-                <a href="javascript:void(0);" data-toggle="collapse" data-target="#calendar-menu_agencies">
-                    <div class="pull-left"><i class="ti-calendar"></i><span class="right-nav-text">التوكيلات</span></div>
-                    <div class="pull-right"><i class="ti-plus"></i></div>
-                    <div class="clearfix"></div>
-                </a>
-                <ul id="calendar-menu_agencies" class="collapse" data-parent="#sidebarnav">
-                    <li><a href="{{route('agencies.index')}}">جميع التوكيلات </a></li>
-                    <li><a href="{{route('agencies.create')}}">اضافه توكيل جديد</a></li>
-                </ul>
-            </li>
+{{--            <li>--}}
+{{--                <a href="javascript:void(0);" data-toggle="collapse" data-target="#calendar-menu_agencies">--}}
+{{--                    <div class="pull-left"><i class="ti-calendar"></i><span class="right-nav-text">التوكيلات</span></div>--}}
+{{--                    <div class="pull-right"><i class="ti-plus"></i></div>--}}
+{{--                    <div class="clearfix"></div>--}}
+{{--                </a>--}}
+{{--                <ul id="calendar-menu_agencies" class="collapse" data-parent="#sidebarnav">--}}
+{{--                    <li><a href="{{route('agencies.index')}}">جميع التوكيلات </a></li>--}}
+{{--                    <li><a href="{{route('agencies.create')}}">اضافه توكيل جديد</a></li>--}}
+{{--                </ul>--}}
+{{--            </li>--}}
 
             <!-- menu item calendar-->
             <li>

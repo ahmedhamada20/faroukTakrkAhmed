@@ -13,7 +13,7 @@
                 <div class="owl-carousel-item position-relative">
                     @if($slider->photo)
                         <img class="img-fluid"
-                             src="{{asset('admin/pictures/silder/'.$slider->id.'/'.$slider->photo->Filename)}}" alt="">
+                             src="{{asset('admin/pictures/silder/'.$slider->id.'/'.$slider->photo->Filename)}}" alt="" style="height: 600px">
                     @else
                         <img class="img-fluid" src="{{asset('frontend/img/carousel-1.jpg')}}" alt="">
                     @endif
@@ -37,7 +37,7 @@
     <!-- Carousel End -->
 
     <!-- About Start -->
-    <div class="container-fluid overflow-hidden">
+    <div class="container-fluid overflow-hidden mt-5">
         <div class="container about ">
             <div class="row g-5 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
@@ -52,7 +52,7 @@
                         @endif
                     </div>
 
-                    
+
                 </div>
                 <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="text-secondary text-uppercase mb-3">{{__('app.About')}}</h6>

@@ -16,16 +16,17 @@
             <a href="{{route('product_all')}}" class="nav-item nav-link {{ getActiveRoutesHome('product_all')}}">{{ __('app.product') }}</a>
             <a href="{{route('blog_all')}}" class="nav-item nav-link {{ getActiveRoutesHome('blog_all')}}">{{ __('app.blog') }}</a>
             <a href="{{route('user_gallery')}}" class="nav-item nav-link {{ getActiveRoutesHome('user_gallery')}}">{{ __('Gallery') }}</a>
-            <div class="nav-item dropdown">
-                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('app.Franchise') }}</a>
-                <div class="dropdown-menu fade-up m-0">
-                    @forelse($agencies as $agencie)
-                    <a href="{{route('user_franchise',preg_replace('/\s+/', '-',$agencie->slug))}}" class="dropdown-item">{{$agencie->name}}</a>
-                    @empty
-                    @endforelse
-                </div>
-            </div>
+{{--            <div class="nav-item dropdown">--}}
+{{--                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('app.Franchise') }}</a>--}}
+{{--                <div class="dropdown-menu fade-up m-0">--}}
+{{--                    @forelse($agencies as $agencie)--}}
+{{--                    <a href="{{route('user_franchise',preg_replace('/\s+/', '-',$agencie->slug))}}" class="dropdown-item">{{$agencie->name}}</a>--}}
+{{--                    @empty--}}
+{{--                    @endforelse--}}
+{{--                </div>--}}
+{{--            </div>--}}
             <a href="{{route('user_contact')}}" class="nav-item nav-link {{ getActiveRoutesHome('user_contact')}}">{{ __('app.Contact') }}</a>
+            <a href="{{route('user_contact')}}" class="btn btn-success text-white p-3 me-2 {{ getActiveRoutesHome('user_contact')}}">عرض سعر</a>
             <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle mt-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     {{trans('app.lang')}}
