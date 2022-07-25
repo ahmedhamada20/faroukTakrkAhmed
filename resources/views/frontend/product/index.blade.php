@@ -40,7 +40,7 @@
 
                             </div>
                             <h4 class="mb-3">{{$product->name}}</h4>
-                            <p>{!! $product->notes !!}</p>
+                            <p>{!!  Str::limit($product->notes,150) !!}</p>
 
 
                             <a class="btn-slide mt-2" href="{{route('productDelis',preg_replace('/\s+/', '-', $product->slug))}}"><i
